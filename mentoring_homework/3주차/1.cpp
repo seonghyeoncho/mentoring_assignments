@@ -5,7 +5,7 @@ int main() {
     int sum = 0;
     for(int i=0;i<5;i++){
         int num;
-        cout << i+1 <<"번째 정수 입력:"<<'\n';
+        cout << i+1 <<"번째 정수 입력:";
         cin >> num;
         sum += num;
     }
