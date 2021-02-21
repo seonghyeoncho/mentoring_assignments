@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     srand(time(NULL));
     for(int i=0 ; i<5 ; i++) {
-        int randNum = rand();
+        int randNum = rand()%101;
         cout << randNum << '\n';
     };
     return 0;
